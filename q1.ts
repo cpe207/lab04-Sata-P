@@ -1,6 +1,15 @@
-function typeChecker(a, b) {
-  /* Your code here */
-}
+function typeChecker(a:number | string, b: number |string) {
+  if(typeof a === 'string' && typeof b === 'string'){
+    return "LOVE YOU";
+  }else if(typeof a === 'number' && typeof b === 'number'){
+    return a + b;
+  }else if(typeof a === 'number' && typeof b === 'string'){
+    return "NOT MATCHED";
+  }else if(typeof a === 'string' && typeof b === 'number'){
+    return "NOT MATCHED";
+  }
+
+}//660612158 ศตคุณ
 
 //Test cases
 const a1 = "Jack";
