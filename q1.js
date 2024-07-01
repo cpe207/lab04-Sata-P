@@ -1,6 +1,6 @@
 function typeChecker(a, b) {
     if (typeof a === 'string' && typeof b === 'string') {
-        return "LOVE YOU";
+        return "I LOVE YOU";
     }
     else if (typeof a === 'number' && typeof b === 'number') {
         return a + b;
@@ -11,7 +11,7 @@ function typeChecker(a, b) {
     else if (typeof a === 'string' && typeof b === 'number') {
         return "NOT MATCHED";
     }
-}//660612158 ศตคุณ
+} //660612158 ศตคุณ
 //Test cases
 var a1 = "Jack";
 var b1 = "Rose";

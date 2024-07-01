@@ -1,6 +1,6 @@
 function typeChecker(a:number | string, b: number |string) {
   if(typeof a === 'string' && typeof b === 'string'){
-    return "LOVE YOU";
+    return "I LOVE YOU";
   }else if(typeof a === 'number' && typeof b === 'number'){
     return a + b;
   }else if(typeof a === 'number' && typeof b === 'string'){
